@@ -44475,7 +44475,7 @@ while(true)switch(s){case 0:o=t.N
 n=B.bP.cT(B.c5.Fm(A.al(["merchantId","M22Y7IIC4RQK0","amount",100,"redirectUrl","https://webhook.site/redirect-url","redirectMode","POST","callbackUrl","https://webhook.site/callback-url","mobileNumber","+917013243595","paymentInstrument",A.al(["type","PAY_PAGE"],o,o)],o,t.K),null))
 m=B.lu.gFn().cT(n)
 l=A.axS(B.Bb.cT(B.bP.cT(m+"/pg/v1/pay88d462f1-c321-4cf1-ad13-372e554e3d53")).a)
-n=A.fX("https://api.phonepe.com/apis/hermes",0,null)
+n=A.fX("https://api.phonepe.com/apis/hermes/pg/v1/pay",0,null)
 q=A.al(["accept","application/json","X-VERIFY",l+"###1","Content-Type","application/json"],o,o)
 s=2
 return A.Z(A.azo(n,B.c5.Fm(A.al(["request",m],o,o),null),q),$async$zv)
